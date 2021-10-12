@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+
+    background: rgb(240, 240, 240);
+}
+
+header {
+    width: 100%;
+    background: rgb(255, 218, 8);
+    padding: 20px;
+    font-weight: bold;
+}
+
+div.logo {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo h1  {
+    font-size: 2.5em;
+}
+
+.logo span {
+    color: rgb(59, 59, 59);
+}
+
+
+ul.lista-nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lista-nav a {
+    color: #fff;
+}
+
+.lista-nav a:link, .lista-nav a:visited {
+    padding: 8px 12px;
+}
+
+.lista-nav a:hover {
+    color: #000;
+    background: #fff;
+}
+
+section {
+    display: flex;
+    margin: 0 auto;
+    width: 920px;
+    justify-content: space-between;
+}
+
+div.conteudo {
+    width: 660px;
+    padding: 20px;
+}
+
+.conteudo {
+    margin: 20px 0;
+    background: #fff;
+}
+
+h2, h3, .register {
+    margin-bottom: 10px;
+}
+
+.conteudo h2, .register {
+    font-weight: bold;
+}
+
+.register {
+    color: rgb(102, 102, 102);
+}
+
+.conteudo h2 {
+    color:rgb(255, 218, 8);
+}
+
+#post-1 {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+div.menu-lateral {
+    width: 240px;
+    margin-top: 20px;
+}
+
+.menu-lateral p {
+    margin: 10px 0;
+}
+
+.menu-lateral a {
+    color:rgb(255, 218, 8);
+}
+
+.menu-lateral a:link, .menu-lateral a:visited {
+    padding: 8px 12px;
+}
+
+.menu-lateral a:hover {
+    background:rgb(255, 218, 8);
+    color: #fff;
+}
+
+
+div.posts-recentes, div.categorias {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+}
+
+h3 {
+    background: #ccc;
+    padding: 12px 12px;
+    color: rgb(104, 104, 104);
+}
+
+footer {
+    background: rgb(172, 172, 172);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.redes-sociais span {
+    margin: 0 10px;
+}
+
+.redes-sociais i {
+    font-size: 18px;
+    color: #fff;
+}
